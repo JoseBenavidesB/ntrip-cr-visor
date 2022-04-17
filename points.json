@@ -1,0 +1,226 @@
+[
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                9.94918321,
+                -84.1276495
+            ]
+        },
+        "data": {
+            "name": "TCAN",
+            "north": 1100126.78,
+            "east": 486003.81,
+            "heigh":1049.79}
+    },{
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                9.64841793,
+                -82.78823276
+            ]
+        },
+        "data": {
+            "name": "HCREEK",
+            "north": 1067096.57,
+            "east": 632993.84,
+            "heigh": 21.47}
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                8.82154586,
+                -82.95349122
+            ]
+        },
+        "data": {
+            "name": "PECOTOP",
+            "north": 975576.78,
+            "east": 615122.45,
+            "heigh": 1016.1}
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                10.09529518,
+                -84.72728096
+            ]
+        },
+        "data": {
+            "name": "MIRA",
+            "north": 1116372.29,
+            "east": 420290.67,
+            "heigh": 369.72}
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                10.47525975,
+                -84.9730454
+            ]
+        },
+        "data": {
+            "name": "SETOPRO",
+            "north": 1158471.63,
+            "east": 393480.43,
+            "heigh": 524.79}
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                10.09834993,
+                -83.50577599
+            ]
+        },
+        "data": {
+            "name": "MSIQUI",
+            "north": 1116662.42,
+            "east": 554165.25,
+            "heigh": 87.98}
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                10.44709194,
+                -85.55154899
+            ]
+        },
+        "data": {
+            "name": "MCARR",
+            "north": 1155608.96,
+            "east": 330124.3,
+            "heigh": 90.86}
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                8.96494207,
+                -83.5206847
+            ]
+        },
+        "data": {
+            "name": "CCORTES",
+            "north": 991308.04,
+            "east": 552704.92,
+            "heigh": 11.79}
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                9.90801679,
+                -83.68630255
+            ]
+        },
+        "data": {
+            "name": "TOPOTEC",
+            "north": 1095587.44,
+            "east": 534399.94,
+            "heigh": 664.54}
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                10.07697204,
+                -83.2894484
+            ]
+        },
+        "data": {
+            "name": "MMATINA",
+            "north": 1114341.62,
+            "east": 577880.12,
+            "heigh": 18.89}
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                10.41097799,
+                -85.78557803
+            ]
+        },
+        "data": {
+            "name": "ETOP",
+            "north": 1151748.33,
+            "east": 304471.13,
+            "heigh": 27.54}
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                10.28368049,
+                -83.74351124
+            ]
+        },
+        "data": {
+            "name": "ROXANA",
+            "north": 1137129.87,
+            "east": 528093.81,
+            "heigh": 96.85}
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                11.07162696,
+                -85.6316547
+            ]
+        },
+        "data": {
+            "name": "LACRUZ",
+            "north": 1224754.18,
+            "east": 321718.99,
+            "heigh": 256.46}
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                10.14781121,
+                -85.44769621
+            ]
+        },
+        "data": {
+            "name": "ASTOP",
+            "north": 1122444.95,
+            "east": 341347.69,
+            "heigh": 130.77}
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                10.09999999,
+                -84.80999997
+            ]
+        },
+        "data": {
+            "name": "RUTA1",
+            "north": 1116914,
+            "east": 411225.49,
+            "heigh": 0}
+    }
+]

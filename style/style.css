@@ -1,0 +1,25 @@
+body {
+    background-color: #14213d;
+    width: 90%;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+h1 {
+    text-align: center;
+    color: #e5e5e5;
+}
+
+#map {
+    height: 500px;
+}
+
+p {
+   color: #fca311; 
+}
+
+a {
+    color: #e5e5e5;
+    text-decoration: none;
+}
