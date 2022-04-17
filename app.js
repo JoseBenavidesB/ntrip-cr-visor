@@ -6,6 +6,7 @@ const map = L.map("map", {
 
 const baseLayers = {
     OSM : L.tileLayer('http://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a>',
         maxZoom:19
     }),
 
@@ -68,18 +69,6 @@ const getData = async ()=> {
     });
 };
 
-
-//draw a circle with popup about user location
-function onLocationFound(e) {
-    const radius = e.accuracy;
-
-    L.marker(e.latlng).addTo(map)
-        .bindPopup("Usted se encuentra aquí <br>  con una presición de: <br>" + radius + " metros").openPopup();
-
-    L.circle(e.latlng, radius).addTo(map);
-}
-
-map.on('locationfound', onLocationFound);
 getData();
 
 
