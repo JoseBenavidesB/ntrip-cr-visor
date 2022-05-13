@@ -222,5 +222,20 @@
             "north": 1116914,
             "east": 411225.49,
             "heigh": 0}
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                9.52087296,
+                -84.33021566
+            ]
+        },
+        "data": {
+            "name": "PARRITA",
+            "north": 463747.0215,
+            "east": 1052772.4054,
+            "heigh": 23.0343}
     }
 ]

@@ -1,3 +1,6 @@
+
+let valor = true;
+
 const map = L.map("map", {
     ccrs: L.CRS.EPSG4326,
     center: [10,-84],
@@ -43,7 +46,7 @@ L.control.locate().addTo(map)
 
 
 //draw a some points
-const getData = async ()=> {
+const getData = async (radius = 30000)=> {
     const url = 'points.json'
 
     const result = await fetch(url);
@@ -60,16 +63,32 @@ const getData = async ()=> {
         
         L.marker(latlong).addTo(map).bindPopup(texto)
 
-        L.circle(latlong, {
-            color: '#2b9cb5',
-            fillColor: '#2b9cb5',
-            fillOpacity: 0.2,
-            radius: 40000
-        }).addTo(map);
+        const circle = 
+            L.circle(latlong, {
+                color: '#2b9cb5',
+                fillColor: '#2b9cb5',
+                fillOpacity: 0.2,
+                radius: radius
+            })
+
+        circle.addTo(map)
+
     });
 };
 
 getData();
+
+/* //add button
+const button = document.querySelector("button")
+button.addEventListener("click", () => {
+    (valor)? valor = false : valor = true
+    if (valor) {
+        getData(50000)
+    } else { getData()}
+})
+//getData(30000); */
+
+
 
 
 
