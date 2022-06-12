@@ -78,15 +78,6 @@ const getData = async (radius = 30000)=> {
 
 getData();
 
-/* //add button
-const button = document.querySelector("button")
-button.addEventListener("click", () => {
-    (valor)? valor = false : valor = true
-    if (valor) {
-        getData(50000)
-    } else { getData()}
-})
-//getData(30000); */
 
 
 
