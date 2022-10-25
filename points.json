@@ -78,15 +78,15 @@
         "geometry": {
             "type": "Point",
             "coordinates": [
-                10.09834993,
-                -83.50577599
+                10.10866278,
+                -83.50768872
             ]
         },
         "data": {
-            "name": "MSIQUI",
-            "north": 1116662.42,
-            "east": 554165.25,
-            "heigh": 87.98}
+            "name": "SIQUIRRES",
+            "north": 1117802.716,
+            "east": 553953.897,
+            "heigh": 76.481}
     },
     {
         "type": "Feature",
