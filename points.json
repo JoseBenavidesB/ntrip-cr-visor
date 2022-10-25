@@ -213,21 +213,6 @@
         "geometry": {
             "type": "Point",
             "coordinates": [
-                10.09999999,
-                -84.80999997
-            ]
-        },
-        "data": {
-            "name": "RUTA1",
-            "north": 1116914,
-            "east": 411225.49,
-            "heigh": 0}
-    },
-    {
-        "type": "Feature",
-        "geometry": {
-            "type": "Point",
-            "coordinates": [
                 9.52087296,
                 -84.33021566
             ]
@@ -237,5 +222,140 @@
             "north": 463747.0215,
             "east": 1052772.4054,
             "heigh": 23.0343}
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                8.440229667,
+                -82.90421011
+            ]
+        },
+        "data": {
+            "name": "LAUREL",
+            "north": 933415.8273,
+            "east": 620665.3624,
+            "heigh": 35.6765}
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                8.531957806,
+                -83.3002785
+            ]
+        },
+        "data": {
+            "name": "PTOJIM",
+            "north": 943460.2125,
+            "east": 577030.4384,
+            "heigh": 25.5907}
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                9.407699722,
+                -83.69834822
+            ]
+        },
+        "data": {
+            "name": "PZETA",
+            "north": 1040253.184,
+            "east": 533127.877,
+            "heigh": 913.3794}
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                9.646112778,
+                -83.97341492
+            ]
+        },
+        "data": {
+            "name": "DOTACAFETOS",
+            "north": 1066606.01,
+            "east": 502917.578,
+            "heigh": 1597.5493}
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                9.908467944,
+                -83.98944339
+            ]
+        },
+        "data": {
+            "name": "NAGUI3RIOS",
+            "north": 1095621.149,
+            "east": 501157.6267,
+            "heigh": 1352.0542}
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                10.45135439,
+                -84.06938153
+            ]
+        },
+        "data": {
+            "name": "SARAPIQUI",
+            "north": 1155664.074,
+            "east": 492404.5424,
+            "heigh": 89.2776}
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                9.704998917,
+                -85.02360361
+            ]
+        },
+        "data": {
+            "name": "TAMBOR",
+            "north": 1073287.536,
+            "east": 387678.5649,
+            "heigh": 80.8268}
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                10.32284239,
+                -84.43469261
+            ]
+        },
+        "data": {
+            "name": "AGROINT",
+            "north": 1141482.264,
+            "east": 452392.7057,
+            "heigh": 686.1171}
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                10.89386081,
+                -85.03184731
+            ]
+        },
+        "data": {
+            "name": "TOPOMUR",
+            "north": 1204797.012,
+            "east": 387197.3567,
+            "heigh": 66.4162}
     }
 ]

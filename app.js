@@ -3,7 +3,7 @@ let valor = true;
 
 const map = L.map("map", {
     ccrs: L.CRS.EPSG4326,
-    center: [10,-84],
+    center: [9.82,-84],
     zoom: 8
 });
 
