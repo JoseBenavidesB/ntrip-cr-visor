@@ -54,12 +54,23 @@ const getData = async (radius = 30000)=> {
     
     data.forEach(element => {
         const latlong = element.geometry.coordinates
-        const { name, north, east, heigh } = element.data
+        const { name, north, east, heigh, file } = element.data
 
-        const texto = `<b>${name}</b> <br> <hr> 
+        let texto = ''
+        
+        if(file.length > 0){
+            texto = `<b>${name}</b> <br> <hr> 
+                    Norte: ${north}m <br>
+                    Este: ${east}m <br>
+                    h: ${heigh}m <br>
+                    <a href=${file}>File</a> <br>`
+        } else {
+            texto = `<b>${name}</b> <br> <hr> 
                     Norte: ${north}m <br>
                     Este: ${east}m <br>
                     h: ${heigh}m <br>`
+        }
+        
         
         L.marker(latlong).addTo(map).bindPopup(texto)
 
