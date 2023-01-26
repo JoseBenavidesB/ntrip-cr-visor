@@ -12,7 +12,8 @@
             "name": "TCAN",
             "north": 1100126.78,
             "east": 486003.81,
-            "heigh":1049.79}
+            "heigh":1049.79,
+            "file":"https://www.dropbox.com/s/l5jsszri1taijq5/TCAN.pdf?dl=1"}
     },{
         "type": "Feature",
         "geometry": {
@@ -26,7 +27,8 @@
             "name": "HCREEK",
             "north": 1067096.57,
             "east": 632993.84,
-            "heigh": 21.47}
+            "heigh": 21.47,
+            "file":"https://www.dropbox.com/s/72if67jaxkinp6m/HCREEK.pdf?dl=1"}
     },
     {
         "type": "Feature",
@@ -41,7 +43,8 @@
             "name": "PECOTOP",
             "north": 974876.1132,
             "east": 613359.090,
-            "heigh": 1040.2425}
+            "heigh": 1040.2425,
+            "file":"https://www.dropbox.com/s/xh8yvmz14a6q2h1/PECOTOP.pdf?dl=1"}
     },
     {
         "type": "Feature",
@@ -56,7 +59,8 @@
             "name": "MIRA",
             "north": 1116372.29,
             "east": 420290.67,
-            "heigh": 369.72}
+            "heigh": 369.72,
+            "file":""}
     },
     {
         "type": "Feature",
@@ -71,7 +75,8 @@
             "name": "SETOPRO",
             "north": 1158471.63,
             "east": 393480.43,
-            "heigh": 524.79}
+            "heigh": 524.79,
+            "file": "https://www.dropbox.com/s/tb90rgecky06i0f/SETOPRO.pdf?dl=1"}
     },
     {
         "type": "Feature",
@@ -86,7 +91,8 @@
             "name": "SIQUIRRES",
             "north": 1117802.716,
             "east": 553953.897,
-            "heigh": 76.481}
+            "heigh": 76.481,
+            "file":"https://www.dropbox.com/s/jpuuw1h07ucnrxd/SIQUIRRES.pdf?dl=1"}
     },
     {
         "type": "Feature",
@@ -101,7 +107,8 @@
             "name": "MCARR",
             "north": 1155608.96,
             "east": 330124.3,
-            "heigh": 90.86}
+            "heigh": 90.86,
+            "file":""}
     },
     {
         "type": "Feature",
@@ -116,7 +123,8 @@
             "name": "CCORTES",
             "north": 991308.04,
             "east": 552704.92,
-            "heigh": 11.79}
+            "heigh": 11.79,
+            "file":"https://www.dropbox.com/s/nz7domzowdofn59/CCORTES.pdf?dl=1"}
     },
     {
         "type": "Feature",
@@ -131,7 +139,8 @@
             "name": "TOPOTEC",
             "north": 1095587.44,
             "east": 534399.94,
-            "heigh": 664.54}
+            "heigh": 664.54,
+            "file": "https://www.dropbox.com/s/01myzruyt672x83/TOPOTEC.pdf?dl=1"}
     },
     {
         "type": "Feature",
@@ -146,7 +155,8 @@
             "name": "MMATINA",
             "north": 1114341.62,
             "east": 577880.12,
-            "heigh": 18.89}
+            "heigh": 18.89,
+            "file": ""}
     },
     {
         "type": "Feature",
@@ -161,7 +171,8 @@
             "name": "ETOP",
             "north": 1151748.33,
             "east": 304471.13,
-            "heigh": 27.54}
+            "heigh": 27.54,
+            "file": ""}
     },
     {
         "type": "Feature",
@@ -176,7 +187,8 @@
             "name": "ROXANA",
             "north": 1137129.87,
             "east": 528093.81,
-            "heigh": 96.85}
+            "heigh": 96.85,
+            "file": ""}
     },
     {
         "type": "Feature",
@@ -191,7 +203,8 @@
             "name": "LACRUZ",
             "north": 1224754.18,
             "east": 321718.99,
-            "heigh": 256.46}
+            "heigh": 256.46,
+            "file": ""}
     },
     {
         "type": "Feature",
@@ -206,7 +219,8 @@
             "name": "ASTOP",
             "north": 1122444.95,
             "east": 341347.69,
-            "heigh": 130.77}
+            "heigh": 130.77,
+            "file": "https://www.dropbox.com/s/d8ssr15xgoo6iyx/ASTOP.pdf?dl=1"}
     },
     {
         "type": "Feature",
@@ -221,7 +235,8 @@
             "name": "PARRITA",
             "north": 463747.0215,
             "east": 1052772.4054,
-            "heigh": 23.0343}
+            "heigh": 23.0343,
+            "file": "https://www.dropbox.com/s/2v8kjq4ngq670xj/PARRITA.pdf?dl=1"}
     },
     {
         "type": "Feature",
@@ -236,7 +251,8 @@
             "name": "LAUREL",
             "north": 933415.8273,
             "east": 620665.3624,
-            "heigh": 35.6765}
+            "heigh": 35.6765,
+            "file": "https://www.dropbox.com/s/2xph0uwheso7xcq/LAUREL.pdf?dl=1"}
     },
     {
         "type": "Feature",
@@ -251,7 +267,8 @@
             "name": "PTOJIM",
             "north": 943460.2125,
             "east": 577030.4384,
-            "heigh": 25.5907}
+            "heigh": 25.5907,
+            "file": "https://www.dropbox.com/s/xbpihyku5kmxaj1/PTOJIM.pdf?dl=1"}
     },
     {
         "type": "Feature",
@@ -266,7 +283,8 @@
             "name": "PZETA",
             "north": 1040253.184,
             "east": 533127.877,
-            "heigh": 913.3794}
+            "heigh": 913.3794,
+            "file": "https://www.dropbox.com/s/wf9np9b0gc2aocl/PZETA%20Dos.pdf?dl=1"}
     },
     {
         "type": "Feature",
@@ -281,7 +299,8 @@
             "name": "DOTACAFETOS",
             "north": 1066606.01,
             "east": 502917.578,
-            "heigh": 1597.5493}
+            "heigh": 1597.5493,
+            "file": "https://www.dropbox.com/s/oc5qscn9l87xr3a/DotaCafetos.pdf?dl=1"}
     },
     {
         "type": "Feature",
@@ -296,7 +315,8 @@
             "name": "NAGUI3RIOS",
             "north": 1095621.149,
             "east": 501157.6267,
-            "heigh": 1352.0542}
+            "heigh": 1352.0542,
+            "file": "https://www.dropbox.com/s/e93rhy40n7rbnuv/NAGUI3RIOS.pdf?dl=1"}
     },
     {
         "type": "Feature",
@@ -311,7 +331,8 @@
             "name": "SARAPIQUI",
             "north": 1155664.074,
             "east": 492404.5424,
-            "heigh": 89.2776}
+            "heigh": 89.2776,
+            "file": "https://www.dropbox.com/s/v2hjlh8ul3f2uit/SARAPIQUI.pdf?dl=1"}
     },
     {
         "type": "Feature",
@@ -326,7 +347,8 @@
             "name": "TAMBOR",
             "north": 1073287.536,
             "east": 387678.5649,
-            "heigh": 80.8268}
+            "heigh": 80.8268,
+            "file": "https://www.dropbox.com/s/1vwrg27l6r0zg4m/TAMBOR.pdf?dl=1"}
     },
     {
         "type": "Feature",
@@ -341,7 +363,8 @@
             "name": "AGROINT",
             "north": 1141482.264,
             "east": 452392.7057,
-            "heigh": 686.1171}
+            "heigh": 686.1171,
+            "file": "https://www.dropbox.com/s/ewvow3s23ez4her/AGROINT.pdf?dl=1"}
     },
     {
         "type": "Feature",
@@ -356,6 +379,7 @@
             "name": "TOPOMUR",
             "north": 1204797.012,
             "east": 387197.3567,
-            "heigh": 66.4162}
+            "heigh": 66.4162,
+            "file": "https://www.dropbox.com/s/p391k71ie0klm3d/TOPOMUR.pdf?dl=1"}
     }
 ]
