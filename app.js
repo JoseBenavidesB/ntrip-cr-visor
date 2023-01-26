@@ -63,7 +63,7 @@ const getData = async (radius = 30000)=> {
                     Norte: ${north}m <br>
                     Este: ${east}m <br>
                     h: ${heigh}m <br>
-                    <a href=${file}>File</a> <br>`
+                    <a href=${file} target="_blank">File</a> <br>`
         } else {
             texto = `<b>${name}</b> <br> <hr> 
                     Norte: ${north}m <br>
