@@ -33,15 +33,15 @@
         "geometry": {
             "type": "Point",
             "coordinates": [
-                8.82154586,
-                -82.95349122
+                8.815255444,
+                -82.96953663889
             ]
         },
         "data": {
             "name": "PECOTOP",
-            "north": 975576.78,
-            "east": 615122.45,
-            "heigh": 1016.1}
+            "north": 974876.1132,
+            "east": 613359.090,
+            "heigh": 1040.2425}
     },
     {
         "type": "Feature",
