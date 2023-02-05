@@ -127,4 +127,4 @@ setTimeout(() => {
     };
 
     L.control.layers(baseLayers, overlayers).addTo(map);
-}, 100)
+}, 500)
