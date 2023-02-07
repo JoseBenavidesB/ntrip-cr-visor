@@ -63,7 +63,7 @@ const getData = async (radius = 30000) => {
                 color: '#652bb5',
                 fillColor: '#652bb5',
                 fillOpacity: 0.2,
-                radius: radius
+                radius: 60000
             })
 
         ignGroup.push(circle);
