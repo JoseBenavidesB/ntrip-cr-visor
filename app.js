@@ -122,8 +122,8 @@ setTimeout(() => {
             opacity: 0.3,
             maxZoom: 19
         }),
-        NTRIP_CR: ntripCr,
-        NTRIP_IGN: ntripIgn
+        NTRIP_CR_30km: ntripCr,
+        NTRIP_IGN_60km: ntripIgn
     };
 
     L.control.layers(baseLayers, overlayers).addTo(map);
