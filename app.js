@@ -111,13 +111,13 @@ setTimeout(() => {
     const ntripIgn = L.layerGroup(ignGroup);
 
     const overlayers = {
-        zona1: L.tileLayer.wms('http://siri.snitcr.go.cr/Geoservicios/wms?request=GetCapabilities', {
+        zona1: L.tileLayer.wms('https://siri.snitcr.go.cr/Geoservicios/wms?request=GetCapabilities', {
             layers: 'catastro',
             opacity: 0.3,
             maxZoom: 19
         }),
 
-        zona2: L.tileLayer.wms('http://siri.snitcr.go.cr/Geoservicios/wms?request=GetCapabilities', {
+        zona2: L.tileLayer.wms('https://siri.snitcr.go.cr/Geoservicios/wms?request=GetCapabilities', {
             layers: 'catastro_aldia',
             opacity: 0.3,
             maxZoom: 19
