@@ -7,3 +7,5 @@ https://ntrip-cr-visor.netlify.app/
 ## Used technologies: Leaflet, html, css
 
 ![Home Screen](./static/img/home.PNG)
+
+![Home Screen](./static/img/home.PNG)
