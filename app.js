@@ -175,3 +175,21 @@ function drawCrCircles(e){
         map.addLayer(crCircles[latLng]);
     }
 };
+
+map.on('overlayremove', (event) =>{
+    switch (event.name){
+    case 'NTRIP_IGN':   
+        Object.keys(ignCircles).forEach( key => {
+            if(map.hasLayer(ignCircles[key])){
+                map.removeLayer(ignCircles[key]);
+            }
+        })
+    break;
+    case 'NTRIP_CR':
+        Object.keys(crCircles).forEach( key => {
+            if(map.hasLayer(crCircles[key])){
+                map.removeLayer(crCircles[key]);
+            }
+        })
+    }
+});
