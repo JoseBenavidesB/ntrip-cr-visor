@@ -381,5 +381,21 @@
             "east": 387197.3567,
             "heigh": 66.4162,
             "file": "https://www.dropbox.com/s/p391k71ie0klm3d/TOPOMUR.pdf?dl=0"}
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                10.07951286,
+                -84.49051147
+            ]
+        },
+        "data": {
+            "name": "SANRAMON",
+            "north": 1114578.4069,
+            "east": 446238.5160,
+            "heigh": 1129.7364,
+            "file": ""}
     }
 ]
