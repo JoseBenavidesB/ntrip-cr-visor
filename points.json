@@ -13,7 +13,9 @@
             "north": 1100126.78,
             "east": 486003.81,
             "heigh":1049.79,
-            "file":"https://www.dropbox.com/s/l5jsszri1taijq5/TCAN.pdf?dl=0"}
+            "file":"https://www.dropbox.com/s/l5jsszri1taijq5/TCAN.pdf?dl=0"
+            "password":"test",
+            "user":"test"}
     },{
         "type": "Feature",
         "geometry": {
