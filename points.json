@@ -13,9 +13,7 @@
             "north": 1100126.78,
             "east": 486003.81,
             "heigh":1049.79,
-            "file":"https://www.dropbox.com/s/l5jsszri1taijq5/TCAN.pdf?dl=0",
-            "password":"test",
-            "user":"test"}
+            "file":"https://www.dropbox.com/s/l5jsszri1taijq5/TCAN.pdf?dl=0"}
     },{
         "type": "Feature",
         "geometry": {
@@ -399,5 +397,40 @@
             "east": 446238.5160,
             "heigh": 1129.7364,
             "file": "https://www.dropbox.com/s/9eirm7bfr5s78cw/SANRAMON.pdf?dl=0"}
+    },
+        {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                10.0868885,
+                -84.24490536
+            ]
+        },
+        "data": {
+            "name": "POAS",
+            "north": 1115363.7917,
+            "east": 473158.4269,
+            "heigh": 1193.634,
+            "file": "",
+            "password":"Campos2023",
+            "user":"jacampos",
+            "cr05":"CR05"}
+    },
+        {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                10.35290431,
+                -85.17765119
+            ]
+        },
+        "data": {
+            "name": "TABOGA",
+            "north": 1145012.9317,
+            "east": 371029.1703,
+            "heigh": 14.4514,
+            "file": ""}
     }
 ]
