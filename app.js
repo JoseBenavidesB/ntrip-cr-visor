@@ -76,8 +76,8 @@ const getData = async (radius = 30000) => {
                     h: ${heigh}m <br>`
         };
         
-        element.data.password ? texto.concat(`Password: ${element.data.password}`) : null;
-        element.data.user ? texto.concat(`User: ${element.data.user}`) : null;
+        texto = element.data.password ? texto.concat(`Password: ${element.data.password}`) : texto;
+        texto = element.data.user ? texto.concat(`User: ${element.data.user}`) : texto;
 
         crCircles[`${latlong}`] = L.circle(latlong, {
                 color: '#1a47ff',
