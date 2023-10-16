@@ -119,7 +119,7 @@ setTimeout(() => {
 
     console.log("hello")
 
-    fetch("http://ntrip.cr:2101/TCAN")
+    fetch("ntrip.cr:2101/TCAN")
       .then(response => {
             console.log(response)
       })
