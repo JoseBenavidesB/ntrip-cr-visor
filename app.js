@@ -116,15 +116,6 @@ const getData = async (radius = 30000) => {
 getData();
 
 setTimeout(() => {
-
-    fetch("http://ntrip.cr:2101/TCAN")
-      .then(response => {
-            console.log(response)
-      })
-      .catch(error => {
-        console.error('Error al realizar la solicitud:', error);
-      });
-
     const baseLayers = {
         OSM: L.tileLayer('http://tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a>',
