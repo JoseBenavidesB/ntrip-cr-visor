@@ -120,7 +120,7 @@ setTimeout(() => {
 
 
     // URL del mountpoint NTRIP que deseas verificar
-    const mountpointURL = 'http://ntrip.cr:2101/TCAN';
+    const mountpointURL = 'https://ntrip.cr:2101/TCAN';
     
     // Realizamos la solicitud HTTP al mountpoint utilizando fetch
     fetch(mountpointURL, { method: 'HEAD' })
