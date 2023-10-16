@@ -118,16 +118,10 @@ getData();
 setTimeout(() => {
 
     console.log("hello")
-    const mountpointURL = 'http://ntrip.cr:2101/TCAN'; // Reemplaza con la URL real de tu mountpoint
-    fetch(mountpointURL)
+
+    fetch("http://ntrip.cr:2101/TCAN")
       .then(response => {
-        if (response.status === 200) {
-          // Un estado de respuesta 200 indica que el mountpoint está transmitiendo.
-          console.log('El mountpoint está transmitiendo.');
-        } else {
-          // Cualquier otro estado de respuesta indica que el mountpoint no está transmitiendo.
-          console.log('El mountpoint no está transmitiendo.');
-        }
+            console.log(response)
       })
       .catch(error => {
         console.error('Error al realizar la solicitud:', error);
