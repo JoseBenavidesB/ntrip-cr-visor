@@ -117,7 +117,7 @@ getData();
 
 setTimeout(() => {
 
-
+    console.log("hello")
     const mountpointURL = 'http://ntrip.cr:2101/TCAN'; // Reemplaza con la URL real de tu mountpoint
     fetch(mountpointURL)
       .then(response => {
