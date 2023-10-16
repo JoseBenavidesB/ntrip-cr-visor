@@ -116,28 +116,6 @@ const getData = async (radius = 30000) => {
 getData();
 
 setTimeout(() => {
-
-
-
-    // URL del mountpoint NTRIP que deseas verificar
-    const mountpointURL = 'https://ntrip.cr:2101/TCAN';
-    
-    // Realizamos la solicitud HTTP al mountpoint utilizando fetch
-    fetch(mountpointURL, { method: 'HEAD' })
-    .then((response) => {
-        if (response.ok) {
-        console.log(`El mountpoint ${mountpointURL} está funcionando correctamente.`);
-        } else {
-        console.log(`El mountpoint ${mountpointURL} no está funcionando (código de estado: ${response.status}).`);
-        }
-    })
-    .catch((error) => {
-        console.error(`Error al verificar el mountpoint: ${error.message}`);
-    });
-        
-
-
-
     const baseLayers = {
         OSM: L.tileLayer('http://tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a>',
