@@ -117,9 +117,7 @@ getData();
 
 setTimeout(() => {
 
-    console.log("hello")
-
-    fetch("ntrip.cr:2101/TCAN")
+    fetch("http://ntrip.cr:2101/TCAN")
       .then(response => {
             console.log(response)
       })
