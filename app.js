@@ -116,6 +116,23 @@ const getData = async (radius = 30000) => {
 getData();
 
 setTimeout(() => {
+
+
+    const mountpointURL = 'http://ntrip.cr:2101/TCAN'; // Reemplaza con la URL real de tu mountpoint
+    fetch(mountpointURL)
+      .then(response => {
+        if (response.status === 200) {
+          // Un estado de respuesta 200 indica que el mountpoint está transmitiendo.
+          console.log('El mountpoint está transmitiendo.');
+        } else {
+          // Cualquier otro estado de respuesta indica que el mountpoint no está transmitiendo.
+          console.log('El mountpoint no está transmitiendo.');
+        }
+      })
+      .catch(error => {
+        console.error('Error al realizar la solicitud:', error);
+      });
+
     const baseLayers = {
         OSM: L.tileLayer('http://tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a>',
