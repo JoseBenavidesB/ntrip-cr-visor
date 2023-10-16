@@ -117,37 +117,24 @@ getData();
 
 setTimeout(() => {
 
-    const http = require('http');
+
 
     // URL del mountpoint NTRIP que deseas verificar
     const mountpointURL = 'http://ntrip.cr:2101/TCAN';
     
-    // Opciones de la solicitud HTTP
-    const options = {
-      method: 'HEAD', // Utilizamos HEAD en lugar de GET para verificar la existencia sin descargar datos
-      timeout: 5000, // Tiempo máximo de espera en milisegundos
-    };
-    
-    // Realizamos la solicitud HTTP al mountpoint
-    const req = http.request(mountpointURL, options, (res) => {
-      if (res.statusCode === 200) {
+    // Realizamos la solicitud HTTP al mountpoint utilizando fetch
+    fetch(mountpointURL, { method: 'HEAD' })
+    .then((response) => {
+        if (response.ok) {
         console.log(`El mountpoint ${mountpointURL} está funcionando correctamente.`);
-      } else {
-        console.log(`El mountpoint ${mountpointURL} no está funcionando (código de estado: ${res.statusCode}).`);
-      }
+        } else {
+        console.log(`El mountpoint ${mountpointURL} no está funcionando (código de estado: ${response.status}).`);
+        }
+    })
+    .catch((error) => {
+        console.error(`Error al verificar el mountpoint: ${error.message}`);
     });
-    
-    req.on('error', (error) => {
-      console.error(`Error al verificar el mountpoint: ${error.message}`);
-    });
-    
-    req.on('timeout', () => {
-      console.error(`Tiempo de espera agotado al verificar el mountpoint.`);
-      req.abort(); // Cancelamos la solicitud si se excede el tiempo de espera
-    });
-    
-    req.end(); // Enviamos la solicitud
-    
+        
 
 
 
