@@ -432,5 +432,21 @@
             "east": 371029.1703,
             "heigh": 14.4514,
             "file": "https://www.dropbox.com/s/4984mpw422tfms0/TABOGA.pdf?dl=0"}
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                10.35984070,
+                -84.25200109
+            ]
+        },
+        "data": {
+            "name": "DoleVNC",
+            "north": 1145552.791,
+            "east": 472404.376,
+            "heigh": 412.6980,
+            "file":"https://www.dropbox.com/scl/fi/3c8z9idytnrrp76zylf9b/DoleVNC.pdf?dl=0"}
     }
 ]
