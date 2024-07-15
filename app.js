@@ -81,8 +81,8 @@ const getData = async (radius = 30000) => {
         texto = element.data.cr05 ? texto.concat(`<strong>CR05</strong><br>`) : texto;
 
         crCircles[`${latlong}`] = L.circle(latlong, {
-                color: '#1a47ff',
-                fillColor: '#1a47ff',
+                color: '#fca211',
+                fillColor: '#fca211',
                 fillOpacity: 0.2,
                 radius: radius
             });
