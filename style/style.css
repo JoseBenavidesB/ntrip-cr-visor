@@ -23,3 +23,27 @@ a {
     color: #e5e5e5;
     text-decoration: none;
 }
+
+.leaflet-tooltip.my-tooltip{
+    font-size: 8px;
+    font-weight: 700;
+    background-color: #fca211aa;
+    border: none;
+    color: #14213d;
+    padding: none;
+    margin: none;
+    width: fit-content;
+    height: fit-content;
+}
+
+.leaflet-tooltip.my-tooltip-ign{
+    font-size: 8px;
+    font-weight: 700;
+    background-color: #6200ff80;
+    border: none;
+    color: #ffffff;
+    padding: none;
+    margin: none;
+    width: fit-content;
+    height: fit-content;
+}
